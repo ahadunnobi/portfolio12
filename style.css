@@ -34,7 +34,7 @@ h1{
     color: white;
     font-weight: 700;
 }
-#center{
+.center{
     text-align: center;
 }
 h2{
@@ -64,15 +64,50 @@ h2{
     background-repeat: no-repeat;
     background-position: left;
 } 
-footer{
-    height: 20px;
+input[type=text], select {
     width: 100%;
-    color: black;
-    
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
-footer h1{
+  
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.from{
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 10%;
+}
+.subject{
+    height: 150px;
+    width: 100%;
+}
+footer{
+	background-color: #000000;
+    padding: 70px 0;
+}
+ footer h1{
     text-align: center;
 }
 footer p{
     text-align: center;
+    font-size: 20px;
+}
+#white{
+    color: rgb(255, 255, 255);
 }
